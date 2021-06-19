@@ -440,7 +440,7 @@ GroupAdd, intellij, ahk_exe idea64.exe
     #If
 
     ; Cmd+Space Alternative
-    $^Space::Send ^{Esc}
+    $^Space::Send !{Space}
 
     #IfWinActive ahk_group intellij
         ; $#c::Send ^{c}                  ; Default - Sigints interrupt
